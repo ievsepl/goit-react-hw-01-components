@@ -1,6 +1,17 @@
+import user from 'user.json';
+import friendList from 'friends.json';
+import data from 'data.json';
+import transactions from 'transactions.json';
+
+import { Profile } from './Profile/Profile'
+import { Statistics } from './Statistics/Statistics'
+import {FriendList} from './FriendList/FriendList'
+import {TransactionHistory} from './TransactionHistory/TransactionHistory'
+
+
 export const App = () => {
   return (
-    // <div
+    <div
     //   style={{
     //     height: '100vh',
     //     display: 'flex',
@@ -9,35 +20,28 @@ export const App = () => {
     //     fontSize: 40,
     //     color: '#010101'
     //   }}
-    // >
-    //   React homework template
-    // </div>
-    <div class="profile">
-  <div class="description">
-    <img
-      src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-      alt="User avatar"
-      class="avatar"
-    />
-    <p class="name">Petra Marica</p>
-    <p class="tag">@pmarica</p>
-    <p class="location">Salvador, Brasil</p>
-  </div>
-
-  <ul class="stats">
-    <li>
-      <span class="label">Followers</span>
-      <span class="quantity">1000</span>
-    </li>
-    <li>
-      <span class="label">Views</span>
-      <span class="quantity">2000</span>
-    </li>
-    <li>
-      <span class="label">Likes</span>
-      <span class="quantity">3000</span>
-    </li>
-  </ul>
-</div>
+    >
+       <Profile
+    username={user.username}
+    tag={user.tag}
+    location={user.location}
+    avatar={user.avatar}
+    stats={user.stats}
+      />
+      
+      <Statistics        
+        title="Upload stats"
+        stats={data}
+      />
+    
+      <FriendList
+        friends={friendList}
+      />
+      
+      <TransactionHistory
+        transactions={transactions}
+      />
+      
+    </div>
   );
 };
