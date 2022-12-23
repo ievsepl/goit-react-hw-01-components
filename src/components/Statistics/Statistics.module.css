@@ -1,25 +1,26 @@
-.statistics{
-    width: 200px;
-    margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        background-color: beige;
+.statistics {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: beige;
 }
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
-.statList{
-    display: flex;
-   justify-content: space-around;
+.statList {
+  display: flex;
+  justify-content: space-around;
 }
-.item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-.label{
-    
+.label {
 }
-.percentage{}
+
+.percentage {
+}

@@ -1,43 +1,42 @@
-.profile{
-    width: 200px;
-    margin-top: 20px;
- margin-left: auto;
- margin-right: auto;
- padding: 10px;
-    /* display: inline-block; */
-    background-color: beige;
+.profile {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  /* display: inline-block; */
+  background-color: beige;
 }
-.description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.avatar{
-width: 150px;
-    height: 100%;
+.avatar {
+  width: 150px;
+  height: 100%;
 }
-.name{
-    margin-bottom: 5px;
+.name {
+  margin-bottom: 5px;
 }
- .tag {
-        margin-bottom: 10px;
-    }
-.location{
-        margin-bottom: 15px;
-    }
-.stats{
-    display: flex;
-    /* flex-direction: column; */
-    padding: 0;
-    /* margin-left: 10px; */
-    justify-content: space-around;
+.tag {
+  margin-bottom: 10px;
 }
-.label{
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-around;
+.location {
+  margin-bottom: 15px;
 }
-.quantity{
-    margin-right: 15px;
+.stats {
+  display: flex;
+  /* flex-direction: column; */
+  padding: 0;
+  /* margin-left: 10px; */
+  justify-content: space-around;
 }
-
+.label {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.quantity {
+  margin-right: 15px;
+}

@@ -1,15 +1,37 @@
-.item{
-    text-align: center;
+.item {
+  text-align: center;
 }
-.status{
-    display: flex;
-    width: 10px;
-    height: 10px;
-    /* border: 2px solid green; */
-    border-radius: 5px;
-    background-color: greenyellow;
-z-index: 5;
-position: absolute;
+.status {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  /* border: 2px solid green; */
+  border-radius: 5px;
+  z-index: 5;
+  position: absolute;
 }
-.avatar{}
-.name{}
+
+.isOffline {
+  background-color: red;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  /* border: 2px solid green; */
+  border-radius: 5px;
+  z-index: 5;
+  position: absolute;
+}
+.isOnline {
+  background-color: greenyellow;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  /* border: 2px solid green; */
+  border-radius: 5px;
+  z-index: 5;
+  position: absolute;
+}
+.avatar {
+}
+.name {
+}
